@@ -1,142 +1,171 @@
-<h1 align="center">Hi 👋, I'm Harsh</h1>
-<h3 align="center">Full-Stack Developer • AI Enthusiast • Building Cool Things on the Internet</h3>
+<div align="center">
 
-<p align="center">
-  <a href="https://github.com/yourusername">
-    <img src="https://komarev.com/ghpvc/?username=yourusername&label=Profile%20Views&color=0e75b6&style=flat" alt="profile views" />
-  </a>
-</p>
+# Harsh Uppal
+
+### Full-Stack Developer • AI Builder • Shipping Ideas Into Reality
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Building+AI+Powered+Projects;Full-Stack+Web+Developer;Learning+%2B+Shipping+Everyday;Turning+Ideas+Into+Products" />
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=yourusername&label=Profile+Views&color=0e75b6&style=for-the-badge" />
+
+</div>
 
 ---
 
-# 🚀 About Me
+# ⚡ About Me
 
-```js
-const harsh = {
-  code: ["JavaScript", "TypeScript", "Python", "C++"],
-  technologies: {
-    frontend: ["React", "Next.js", "Tailwind CSS"],
-    backend: ["Node.js", "Express"],
-    database: ["MongoDB", "PostgreSQL"],
-    ai_ml: ["OpenCV", "YOLO", "TensorFlow"],
-    tools: ["Git", "Docker", "Firebase", "Vercel"]
-  },
-  
-  currentFocus: [
-    "Building AI-powered applications",
-    "Full-stack web development",
-    "Freelancing & real-world projects"
-  ],
+```typescript
+class Developer {
+  name: string = "Harsh Uppal";
 
-  funFact: "I vibe code at 2AM better than during the day ☕"
-};
+  role: string[] = [
+    "Full Stack Developer",
+    "AI Enthusiast",
+    "Freelancer"
+  ];
+
+  stack: string[] = [
+    "Next.js",
+    "React",
+    "Node.js",
+    "TypeScript",
+    "MongoDB",
+    "Python"
+  ];
+
+  currentlyBuilding: string[] = [
+    "AI-powered applications",
+    "Modern SaaS products",
+    "Automation tools",
+    "Interactive web experiences"
+  ];
+
+  motto: string =
+    "Learn fast. Build faster.";
+}
+
+const harsh = new Developer();
 ```
 
 ---
 
-# 🌟 Featured Projects
+# 🚀 Featured Projects
 
-### 🚓 AI Number Plate Detection System
-> AI-powered no-parking enforcement system optimized for edge deployment.
+<table>
+<tr>
+<td width="50%">
 
-- YOLOv8-based detection
+## 🚓 AI License Plate Detection
+
+Real-time Indian number plate detection & no-parking enforcement system.
+
+### Highlights
+- YOLOv8 detection
 - OCR integration
+- Edge deployment ready
 - Raspberry Pi optimized
-- Real-time violation tracking
+
+</td>
+
+<td width="50%">
+
+## 🌐 Dynamic Portfolio Platform
+
+Modern animated portfolio with GitHub integration and live project syncing.
+
+### Highlights
+- Interactive UI/UX
+- GitHub API integration
+- Smooth animations
+- Fully responsive
+
+</td>
+</tr>
+</table>
 
 ---
 
-### 🌐 Modern Portfolio Platform
-> Dynamic developer portfolio with live GitHub integration and advanced animations.
+# 🧠 Tech Arsenal
 
-- Responsive UI/UX
-- GitHub activity sync
-- Interactive animations
-- Performance optimized
+<div align="center">
 
----
+## Frontend
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,ts,js,html,css" />
 
-### 🤖 AI-Powered Web Apps
-> Building intelligent applications integrating AI into modern workflows.
+## Backend
+<img src="https://skillicons.dev/icons?i=nodejs,express,python,firebase" />
 
-- AI automation
-- Smart dashboards
-- Agent-based workflows
-- API integrations
+## Database & Tools
+<img src="https://skillicons.dev/icons?i=mongodb,postgres,docker,git,github,vercel" />
 
----
+## AI / ML
+<img src="https://skillicons.dev/icons?i=python,tensorflow,opencv" />
 
-# 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight" height="180em"/>
-  
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=tokyonight" height="180em"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=tokyonight"/>
-</p>
+</div>
 
 ---
 
-# 🛠️ Tech Stack
+# 📊 GitHub Analytics
 
-### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
-![Next JS](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=next.js)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css)
+<div align="center">
 
-### Backend
-![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs)
-![Express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight&hide_border=true"/>
 
-### Database
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql)
+<img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=tokyonight&hide_border=true"/>
 
-### AI / ML
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python)
-![OpenCV](https://img.shields.io/badge/OpenCV-white?style=for-the-badge&logo=opencv)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow)
+<img width="70%" src="https://github-readme-activity-graph.vercel.app/graph?username=yourusername&theme=tokyo-night&hide_border=true"/>
+
+</div>
 
 ---
 
-# 📊 Contribution Graph
+# 🎯 2026 Goals
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yourusername&theme=tokyo-night"/>
-</p>
+```yaml
+goals:
+  - Build profitable SaaS products
+  - Master AI + Agentic Systems
+  - Scale freelancing income
+  - Contribute to open source
+  - Become a top-tier full-stack engineer
+```
 
 ---
 
-# 🎯 Current Goals
+# 🌍 Currently Exploring
 
-- 🚀 Build scalable SaaS products
-- 💻 Land high-quality freelance clients
-- 🧠 Deep dive into AI + Agentic Systems
-- 📈 Grow as a full-stack engineer
+- AI Agents & Automation
+- Advanced UI/UX Systems
+- Scalable Backend Architectures
+- Real-world AI Integrations
+- Performance Engineering
 
 ---
 
 # 📫 Connect With Me
 
-<p align="left">
-<a href="https://linkedin.com/in/yourusername" target="blank">
-<img align="center" src="https://skillicons.dev/icons?i=linkedin" height="40" />
+<div align="center">
+
+<a href="https://github.com/yourusername">
+  <img src="https://skillicons.dev/icons?i=github" height="50"/>
 </a>
 
-<a href="https://twitter.com/yourusername" target="blank">
-<img align="center" src="https://skillicons.dev/icons?i=twitter" height="40" />
+<a href="https://linkedin.com/in/yourusername">
+  <img src="https://skillicons.dev/icons?i=linkedin" height="50"/>
 </a>
 
 <a href="mailto:youremail@gmail.com">
-<img align="center" src="https://skillicons.dev/icons?i=gmail" height="40" />
+  <img src="https://skillicons.dev/icons?i=gmail" height="50"/>
 </a>
-</p>
+
+</div>
 
 ---
 
-<p align="center">
-  ⚡ Building. Learning. Shipping.
-</p>
+<div align="center">
+
+## ⚡ “Consistency compounds faster than motivation.”
+
+</div>
