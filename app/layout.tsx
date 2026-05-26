@@ -17,6 +17,11 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Harsh Uppal", url: "https://github.com/uppal-harsh" }],
   creator: "Harsh Uppal",
+  icons: {
+    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
+    shortcut: ["/icon.svg"],
+    apple: [{ url: "/icon.svg", type: "image/svg+xml" }]
+  },
   openGraph: {
     title: "Harsh Uppal | Full-Stack Developer",
     description: "Rhythm in chaos. Order in flux. A cinematic technical portfolio.",

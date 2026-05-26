@@ -3,7 +3,7 @@ import { ActivityItem, GitHubPayload, GitHubRepo, GitHubUser, LanguageStat } fro
 const USERNAME = "uppal-harsh";
 const showcaseOrder = [
   "FinStock",
-  "SpecMatch",
+  "SpecMatch-main",
   "driver-wellness",
   "fusion",
   "yolo_no_parking_zone",

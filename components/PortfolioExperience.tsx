@@ -667,7 +667,7 @@ function ContactSection({ codolio }: { codolio: CodolioPayload | null }) {
             <Linkedin size={18} />
             LinkedIn
           </a>
-          <a href="mailto:harshuppal.dev@gmail.com">
+          <a href="mailto:harshuppal300@gmail.com">
             <Mail size={18} />
             Email
           </a>
@@ -675,7 +675,7 @@ function ContactSection({ codolio }: { codolio: CodolioPayload | null }) {
             <ArrowUpRight size={18} />
             Codolio
           </a>
-          <a href="/resume.pdf" target="_blank" rel="noreferrer" className="resume-link">
+          <a href="/Harsh-Uppal.docx" target="_blank" rel="noreferrer" download="Harsh-Uppal.docx" className="resume-link">
             Resume
             <ArrowUpRight size={18} />
           </a>

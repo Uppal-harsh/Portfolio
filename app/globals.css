@@ -15,6 +15,7 @@
   --muted: rgba(255, 255, 255, 0.7);
   --line: rgba(245, 200, 66, 0.24);
   --glass: rgba(255, 255, 255, 0.055);
+  --page-gutter: clamp(9rem, 10vw, 11rem);
 }
 
 * {
@@ -344,7 +345,7 @@ a {
   overflow: hidden;
   display: grid;
   place-items: center;
-  padding: 7rem 6rem 5rem;
+  padding: 7rem var(--page-gutter) 5rem;
 }
 
 .hero::before {
@@ -653,7 +654,7 @@ a {
 .section-shell {
   position: relative;
   z-index: 5;
-  padding: 7rem 7vw;
+  padding: 7rem var(--page-gutter);
 }
 
 .section-shell > div {
@@ -1107,8 +1108,12 @@ a {
 }
 
 @media (max-width: 1180px) {
+  :root {
+    --page-gutter: 8.75rem;
+  }
+
   .hero {
-    padding-inline: 4rem;
+    padding-inline: var(--page-gutter);
   }
 
   .hero-copy h1 {
@@ -1122,6 +1127,17 @@ a {
   .project-grid,
   .skills-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 1040px) {
+  :root {
+    --page-gutter: clamp(1.25rem, 4vw, 3rem);
+  }
+
+  .side-nav,
+  .right-label {
+    display: none;
   }
 }
 
