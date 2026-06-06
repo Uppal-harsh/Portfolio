@@ -2,12 +2,12 @@ import { ActivityItem, GitHubPayload, GitHubRepo, GitHubUser, LanguageStat } fro
 
 const USERNAME = "uppal-harsh";
 const showcaseOrder = [
-  "FinStock",
-  "SpecMatch-main",
   "driver-wellness",
   "fusion",
-  "yolo_no_parking_zone",
-  "invage-main"
+  "invage-main",
+  "SpecMatch-main",
+  "Portfolio",
+  "Luka"
 ];
 
 const languageColors: Record<string, string> = {
